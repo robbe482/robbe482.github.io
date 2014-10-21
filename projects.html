@@ -1,0 +1,11 @@
+<div>
+    <div class="row" ng-repeat="(projIdx, project) in projects" ng-if="projIdx % 3 == 0">
+        <!--<hr ng-if="projIdx !== 0">-->
+        <div class="col-md-4 projectDiv unselectable" ng-repeat="elIdx in [0,1,2]" ng-if="projects[projIdx+elIdx]">
+	        <a ui-sref="project({projectName: projects[projIdx+elIdx].name})"> 
+	        	<img ng-src="{{'projects/' + projects[projIdx+elIdx].name + '/' + projects[projIdx+elIdx].images[0]}}" class="img-responsive projectImg"/>
+	        	{{projects[projIdx+elIdx].name | uppercase}}
+	        </a>
+        </div>
+    </div>
+</div>

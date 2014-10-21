@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <!--<base href=""/>-->
+
+        <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+
+        <style>
+            body {
+                background-color: #EAEAEA;
+            }
+
+            .projectDiv {
+                background-color: #FFFFFF;
+            }
+
+            .navbar {
+                /*margin-top: 1em;*/
+                margin-bottom: 1em;
+            }
+
+            .navbar a {
+                font-size: 120%;
+            }
+
+            .footer {
+                margin-top: 1em;
+            }
+
+            .carouselImg {
+               /* display: block;
+                margin: auto auto;
+                width: auto;
+                height: 225px;
+                max-height: 225px;*/
+            }
+
+            .projectImg {
+                margin-top: 0.5em;
+                height: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .projectDiv {
+                background-clip: padding-box;
+                border: 0.5em solid transparent;
+                text-align: center;
+                border-radius: 11px;
+                height: 22em;
+            }
+
+            .projectDiv a {
+                color : black;
+                font-size: 120%;
+            }
+
+            .unselectable {
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                -o-user-select: none;
+                user-select: none;
+            }
+
+        </style>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+        <script src="libs/bootstrap/js/carousel.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+        <script src="libs/lodash.js"></script>
+        <script src="app.js"></script>
+    </head>
+
+<!-- apply our angular app to our site -->
+    <body ng-app="app">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <!--<li><a ui-sref="home">Home</a></li>-->
+                <li><a ui-sref="projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <div ui-view></div>
+    </div>
+
+    <div class="footer text-center">
+        <p>Robin Berntsson - 2014</p>
+    </div>
+
+    </body>
+</html>

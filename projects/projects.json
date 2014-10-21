@@ -1,0 +1,156 @@
+{
+    "projects": [
+        {
+            "name": "atril",
+            "date": "2012",
+            "course": "TNM061 3-D Computer Graphics",
+            "tools": "matlab",
+            "partners": "Oscar Ivarsson, Simon Bergström, Pär Eriksson, Jimmie Berg",
+            "description": "Written in C++ using OpenGL, GLFW and GLSL. Includes Object Loader, Shadow Mapping and Collision Detection",
+            "images": [
+                "atril_1.png",
+                "atril_2.png",
+                "atril_3.png",
+                "atril_4.png",
+                "atril_5.png",
+                "atril_6.png",
+                "atril_7.png",
+                "atril_8.png",
+                "atril_9.png",
+                "atril_10.png",
+                "atril_11.png"
+            ]
+            
+        },
+        {
+            "name": "sumoke",
+            "date": "2013",
+            "course": "TNM085 Modelling Project",
+            "tools": "matlab",
+            "partners": "Oscar Ivarsson, Simon Bergström, Pär Eriksson, Jimmie Berg",
+            "description": "A real time smoke simulation implemented with OpenGL and OpenCL. Volume Rendering made in GLSL. Pre-Simulation in MATLAB.",
+            "images": [
+                "sumoke_1.png",
+                "sumoke_2.png",
+                "sumoke_3.png",
+                "sumoke_4.png",
+                "sumoke_5.png",
+                "sumoke_6.png",
+                "sumoke_7.png"
+            ]
+        },
+        {
+            "name": "citrus",
+            "date": "2013",
+            "course": "TDDC88 Software Engineering",
+            "tools": "matlab",
+            "partners": "Group of 30 persons",
+            "description": "Web-interface for set top boxes",
+            "images": [
+                "c1.png",
+                "c2.png",
+                "c3.png",
+                "c4.png",
+                "c5.png",
+                "c6.png",
+                "c7.png"
+            ]
+        },
+        {
+            "name": "jrforums",
+            "date": "2010",
+            "course": "TNM025 Content-based Media Search",
+            "tools": "matlab",
+            "partners": "John Hollen",
+            "description": "First ever web-project a simple forum.",
+            "images": [
+                "jr1.png",
+                "jr2.png",
+                "jr3.png",
+                "jr4.png"
+            ]
+        },
+        {
+            "name": "mosaic",
+            "date": "2014",
+            "course": "TNM025 Content-based Media Search",
+            "tools": "matlab",
+            "partners": "Oscar Ivarsson",
+            "description": "The project is created in Matlab with the use of various techniques for performing image retrieval in large databases.The result is used for creating mosaic images, i.e. images that are made of multiple sub-images that are working as an assemblage of small mosaic pieces.",
+            "images": [
+                "tiger_51x51_unique.jpg",
+                "frogs.jpg",
+                "obama.jpg",
+                "tiger_26x26_unique.jpg",
+                "tiger_51x51.jpg"
+            ]
+        },
+        {
+            "name": "donjoule",
+            "date": "2014",
+            "course": "TNM048 Information Visualisation",
+            "tools": "matlab",
+            "partners": "Pär Eriksson",
+            "description": "Visualization over energy consumption in the world",
+            "images": [
+                "pokerai.png"
+            ]
+        },
+        {
+            "name": "moa",
+            "date": "2014",
+            "course": "TNM079 Modeling and Animation",
+            "tools": "matlab",
+            "partners": "Oscar Ivarsson",
+            "description": "This course contained an extensive lab series related to different parts of modeling and animation. The labs were performed in C++ with an existing code structure. Lab 1: Mesh Data Structures, Lab 2: Mesh Decimation, Lab 3: Splines and Subdivision, Lab 4: Implicit Surfaces and Modeling, Lab 5: Level-Set Methods, Lab 6: Fluid Simulation",
+            "images": [
+                "moa1.png",
+                "moa2.png",
+                "moa3.png",
+                "moa4.png",
+                "moa5.png",
+                "moa6.png",
+                "moa7.png",
+                "moa8.png",
+                "moa9.png",
+                "moa10.png",
+                "moa11.png",
+                "moa12.png",
+                "moa13.png",
+                "moa14.png",
+                "moa15.png"
+            ]
+        },
+        {
+            "name": "volpix",
+            "date": "2014",
+            "course": "TSBK03 Technology For Advanced Computer Games",
+            "tools": "matlab",
+            "partners": "Oscar Ivarsson, Pär Eriksson, Jonas Görling",
+            "description": "This project is an implementation of a surface voxelization algorithm that runs in a single pass, completely on the GPU with the use of the hardware accelerated rasterization. Also a sparse voxel octree is implemented for the storage of the voxels at the CPU. The application is made for pure visualization of the voxels.",
+            "images": [
+                "volpix_1.png",
+                "volpix_2.png",
+                "volpix_3.png",
+                "volpix_4.png",
+                "volpix_5.png"
+            ]
+        },
+        {
+            "name": "tetris",
+            "date": "2013",
+            "course": "TNM066 Computer Models of Cognitive Processes",
+            "tools": "matlab",
+            "partners": "Simon Bergström",
+            "description": "Tetris AI optimized with the help of genetic algorithms.",
+            "images": [
+                "AI_1.png",
+                "AI_2.png",
+                "AI_4.png",
+                "AI_5.png",
+                "AI_6.png",
+                "AI_7.png"
+            ]
+        }
+    ]
+}
