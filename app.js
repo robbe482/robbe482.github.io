@@ -22,7 +22,7 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
             controller: 'projectController'
         })
 
-        $locationProvider.html5Mode(true);
+        //$locationProvider.html5Mode(true);
 });
 
 app.controller('projectsController', function($scope, projectObject) {
