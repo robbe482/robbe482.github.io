@@ -23,6 +23,17 @@
             
         },
         {
+            "name": "pokerai", 
+            "date": "2014",
+            "course": "TNM095 Intelligent computer graphics",
+            "tools": "matlab",
+            "partners": "Simon Bergström, John Hollen",
+            "description": "Poker AI using Monte Carlo tree Search and opponent modelling.",
+            "images": [
+                "pokerai.png"
+            ]
+        },
+        {
             "name": "sumoke",
             "date": "2013",
             "course": "TNM085 Modelling Project",
@@ -93,7 +104,9 @@
             "partners": "Pär Eriksson",
             "description": "Visualization over energy consumption in the world",
             "images": [
-                "pokerai.png"
+                "dj1.png",
+                "dj2.png",
+                "dj3.png"
             ]
         },
         {
