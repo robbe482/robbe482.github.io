@@ -1,7 +1,7 @@
 <div>
 	<div class="row project">
 		<div class="col-md-6">
-			<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+			<div id="Carousel" class="carousel slide unselectable" data-ride="carousel" data-interval="false">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 				    <li data-target="#Carousel" ng-if="project.images.length > 1" ng-repeat="image in project.images track by $index" data-slide-to="$index" ng-class="{active : $first}"></li>
@@ -32,9 +32,8 @@
 		<div class="col-md-6">
 			<h3>{{project.name | capitalize}} </h3>
 			<p>Year - {{project.date}}</p>
-			<p>
-				{{project.description}}
-			</p>
+			<p>Project members: {{project.partners}}</p>
+			<p>{{project.description}}</p>
 		</div>
 	</div>
 </div>
