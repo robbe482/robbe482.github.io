@@ -19,8 +19,10 @@
                 "atril_9.png",
                 "atril_10.png",
                 "atril_11.png"
+            ],
+            "videos":[
+                "//www.youtube.com/embed/Yi8sk5WEcTQ"
             ]
-            
         },
         {
             "name": "pokerai", 
@@ -31,6 +33,8 @@
             "description": "Poker AI using Monte Carlo tree Search and opponent modelling.",
             "images": [
                 "pokerai.png"
+            ],
+            "videos":[
             ]
         },
         {
@@ -48,6 +52,9 @@
                 "sumoke_5.png",
                 "sumoke_6.png",
                 "sumoke_7.png"
+            ],
+            "videos":[
+                "//www.youtube.com/embed/tPCFTdZpS-0"
             ]
         },
         {
@@ -65,6 +72,8 @@
                 "c5.png",
                 "c6.png",
                 "c7.png"
+            ],
+            "videos":[
             ]
         },
         {
@@ -79,6 +88,8 @@
                 "jr2.png",
                 "jr3.png",
                 "jr4.png"
+            ],
+            "videos":[
             ]
         },
         {
@@ -94,6 +105,8 @@
                 "obama.jpg",
                 "tiger_26x26_unique.jpg",
                 "tiger_51x51.jpg"
+            ],
+            "videos":[
             ]
         },
         {
@@ -107,6 +120,8 @@
                 "dj1.png",
                 "dj2.png",
                 "dj3.png"
+            ],
+            "videos":[
             ]
         },
         {
@@ -132,6 +147,8 @@
                 "moa13.png",
                 "moa14.png",
                 "moa15.png"
+            ],
+            "videos":[
             ]
         },
         {
@@ -147,6 +164,8 @@
                 "volpix_3.png",
                 "volpix_4.png",
                 "volpix_5.png"
+            ],
+            "videos":[
             ]
         },
         {
@@ -163,6 +182,8 @@
                 "AI_5.png",
                 "AI_6.png",
                 "AI_7.png"
+            ],
+            "videos":[
             ]
         }
     ]

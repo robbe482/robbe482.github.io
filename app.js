@@ -55,3 +55,16 @@ app.factory('projectObject', function($http){
         }
     }};
 });
+
+app.filter('capitalize', function() {
+    return function(input) {
+        return input && input[0].toUpperCase() + input.slice(1);
+    };
+});
+
+
+app.filter('trustUrl', function ($sce) {
+    return function(url) {
+        return $sce.trustAsResourceUrl(url);
+    };
+});

@@ -1,29 +1,37 @@
 <div>
-	<div class="row">
+	<div class="row project">
 		<div class="col-md-6">
-			<div id="Carousel" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#Carousel" ng-repeat="image in project.images track by $index" data-slide-to="$index" ng-class="{active : $first}"></li>
-			  </ol>
+			<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				    <li data-target="#Carousel" ng-if="project.images.length > 1" ng-repeat="image in project.images track by $index" data-slide-to="$index" ng-class="{active : $first}"></li>
+				    <li data-target="#Carousel" ng-repeat="video in project.videos track by $index" data-slide-to="$index"></li>
+				</ol>
 
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner unselectable">
-			    <div class="item" ng-repeat="image in project.images track by $index" ng-class="{active : $first}">
-			      <img ng-src="{{'projects/' + project.name + '/' + image}}" class="img-responsive carouselImg">
-			    </div>
-			  </div>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner unselectable">
+					<div class="item carouselItem" ng-repeat="image in project.images track by $index" ng-class="{active : $first}">
+						<a href="{{'projects/' + project.name + '/' + image}}" data-lightbox="{{image}}" data-title="">
+						<img ng-src="{{'projects/' + project.name + '/' + image}}" class="img-responsive carouselImg">
+						</a>
+					</div>
+					<div class="item carouselItem" ng-repeat="video in project.videos track by $index">
+						<iframe width="100%" height="100%" ng-src="{{video | trustUrl}}" frameborder="0" allowfullscreen=""></iframe>
+					</div>
+				</div>
 
-			  <!-- Controls -->
-			  <span class="left carousel-control" data-target="#Carousel" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left"></span>
-			  </span>
-			  <span class="right carousel-control" data-target="#Carousel" role="button" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right"></span>
-			  </span>
+				<!-- Controls -->
+				<span ng-if="project.images.length > 1" class="left carousel-control" data-target="#Carousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</span>
+				<span ng-if="project.images.length > 1" class="right carousel-control" data-target="#Carousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</span>
 			</div>
 		</div>
 		<div class="col-md-6">
+			<h3>{{project.name | capitalize}} </h3>
+			<p>Year - {{project.date}}</p>
 			<p>
 				{{project.description}}
 			</p>

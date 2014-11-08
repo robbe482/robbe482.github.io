@@ -1,0 +1,140 @@
+body {
+    background-color: #EAEAEA;
+}
+
+#navContainer {
+    margin-top: 25px;
+}
+
+#linkedin {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contactInformation {
+    float: right;
+    color: #bbbbbb;
+}
+
+.navbar {
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+.navbar a {
+    font-size: 120%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #bbbbbb;
+}
+
+.footer {
+    margin-top: 1em;
+}
+
+.projectImg {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.projectDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.projectDiv-inner {
+    height: 18em;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    -webkit-border-radius: 3px;
+}
+
+.projectDiv a {
+    color : black;
+    font-size: 120%;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.project {
+    padding: 1em;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    -webkit-border-radius: 3px;
+}
+
+.carouselItem {
+    height: 300px;
+}
+
+.carousel-control {
+    height: 87%;
+}
+
+.carousel-control .glyphicon-chevron-left {
+    margin-top: 0px;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    margin-top: 0px;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+  color: black;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+  border: none;
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-inner {
+   margin-bottom: 50px;
+}
+
+.carouselImg {
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+
+ol {
+    font-size: 0px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    padding-top: 0.5%;
+    margin-bottom: 1%;
+}
