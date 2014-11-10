@@ -25,7 +25,7 @@
             ]
         },
         {
-            "name": "pokerai", 
+            "name": "MCTS poker agent", 
             "date": "2014",
             "course": "TNM095 Intelligent computer graphics",
             "tools": "matlab",
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "name": "jrforums",
+            "name": "JRforums",
             "date": "2010",
             "course": "TNM025 Content-based Media Search",
             "tools": "matlab",
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "name": "tetris",
+            "name": "Genetic tetris agent",
             "date": "2013",
             "course": "TNM066 Computer Models of Cognitive Processes",
             "tools": "matlab",
@@ -184,6 +184,7 @@
                 "AI_7.png"
             ],
             "videos":[
+                "//www.youtube.com/embed/_DeNV3DJctw"
             ]
         }
     ]

@@ -138,3 +138,12 @@ ol {
     padding-top: 0.5%;
     margin-bottom: 1%;
 }
+
+#carouselMessage {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 100px;
+    color: #AEAFBD;
+    font-size: 180%;
+    z-index: 10;
+}

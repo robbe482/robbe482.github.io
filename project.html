@@ -11,6 +11,7 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner unselectable">
 					<div class="item carouselItem" ng-repeat="image in project.images track by $index" ng-class="{active : $first}">
+						<div id="carouselMessage">Click to view image in full size</div>
 						<a href="{{'projects/' + project.name + '/' + image}}" data-lightbox="{{image}}" data-title="">
 						<img ng-src="{{'projects/' + project.name + '/' + image}}" class="img-responsive carouselImg">
 						</a>
