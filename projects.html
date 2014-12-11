@@ -3,8 +3,8 @@
         <!--<hr ng-if="projIdx !== 0">-->
         <div class="col-md-4 projectDiv unselectable" ng-repeat="elIdx in [0,1,2]" ng-if="projects[projIdx+elIdx]">
         	<div class="projectDiv-inner">
-		        <a ui-sref="project({projectName: projects[projIdx+elIdx].name})"> 
-		        	<img ng-src="{{'projects/' + projects[projIdx+elIdx].name + '/' + projects[projIdx+elIdx].images[0]}}" class="img-responsive projectImg"/>
+		        <a ui-sref="project({projectName: projects[projIdx+elIdx].href})"> 
+		        	<img ng-src="{{'projects/' + projects[projIdx+elIdx].href + '/' + projects[projIdx+elIdx].preview}}" class="img-responsive projectImg"/>
 		        	{{projects[projIdx+elIdx].name | capitalize}}
 		        </a>
 		    </div>

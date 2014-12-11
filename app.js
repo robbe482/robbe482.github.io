@@ -35,7 +35,7 @@ app.controller('projectController', function($scope, $stateParams, projectObject
 
     projectObject.getData(function(data){
         $scope.project = _.find(data.projects, function(project){
-            return project.name === $stateParams.projectName;
+            return project.href === $stateParams.projectName;
         });  
     });
 });

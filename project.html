@@ -12,8 +12,8 @@
 				<div class="carousel-inner unselectable">
 					<div class="item carouselItem" ng-repeat="image in project.images track by $index" ng-class="{active : $first}">
 						<div id="carouselMessage">Click to view image in full size</div>
-						<a href="{{'projects/' + project.name + '/' + image}}" data-lightbox="{{image}}" data-title="">
-						<img ng-src="{{'projects/' + project.name + '/' + image}}" class="img-responsive carouselImg">
+						<a href="{{'projects/' + project.href + '/' + image}}" data-lightbox="{{image}}" data-title="">
+						<img ng-src="{{'projects/' + project.href + '/' + image}}" class="img-responsive carouselImg">
 						</a>
 					</div>
 					<div class="item carouselItem" ng-repeat="video in project.videos track by $index">

@@ -1,57 +1,65 @@
 {
     "projects": [
         {
-            "name": "atril",
+            "name": "atril - Game engine",
+            "href": "atril",
             "date": "2012",
             "course": "TNM061 3-D Computer Graphics",
-            "tools": "matlab",
+            "tools": "c++, GLSL, OpenGL",
             "partners": "Oscar Ivarsson, Simon Bergström, Pär Eriksson, Jimmie Berg",
-            "description": "Written in C++ using OpenGL, GLFW and GLSL. Includes Object Loader, Shadow Mapping and Collision Detection",
+            "description": "Written in C++ using OpenGL, GLFW and GLSL. Includes Object Loader, Shadow Mapping and Collision Detection.",
+            "preview": "atril_10.jpg",
             "images": [
-                "atril_1.png",
-                "atril_2.png",
-                "atril_3.png",
-                "atril_4.png",
-                "atril_5.png",
-                "atril_6.png",
-                "atril_7.png",
-                "atril_8.png",
-                "atril_9.png",
-                "atril_10.png",
-                "atril_11.png"
+                "atril_1.jpg",
+                "atril_2.jpg",
+                "atril_3.jpg",
+                "atril_4.jpg",
+                "atril_5.jpg",
+                "atril_6.jpg",
+                "atril_7.jpg",
+                "atril_8.jpg",
+                "atril_9.jpg",
+                "atril_10.jpg",
+                "atril_11.jpg"
             ],
             "videos":[
                 "//www.youtube.com/embed/Yi8sk5WEcTQ"
             ]
         },
         {
-            "name": "MCTS poker agent", 
+            "name": "MCTS poker agent",
+            "href": "pokerai",
             "date": "2014",
             "course": "TNM095 Intelligent computer graphics",
-            "tools": "matlab",
+            "tools": "Javascript",
             "partners": "Simon Bergström, John Hollen",
-            "description": "Poker AI using Monte Carlo tree Search and opponent modelling.",
+            "description": "Poker agent using Monte Carlo tree search and opponent modelling to select the best move. Implemented with Javascript",
+            "preview": "pokerai.jpg",
             "images": [
-                "pokerai.png"
+                "pokerai.jpg",
+                "p1.jpg",
+                "p2.jpg"
             ],
             "videos":[
             ]
         },
         {
-            "name": "sumoke",
+            "name": "sumoke - Smoke simulator",
+            "href": "sumoke",
             "date": "2013",
             "course": "TNM085 Modelling Project",
-            "tools": "matlab",
+            "tools": "C++, OpenGL, OpenCL, MATLAB",
             "partners": "Oscar Ivarsson, Simon Bergström, Pär Eriksson, Jimmie Berg",
-            "description": "A real time smoke simulation implemented with OpenGL and OpenCL. Volume Rendering made in GLSL. Pre-Simulation in MATLAB.",
+            "description": "A real time smoke simulation implemented with OpenGL and OpenCL. Volume Rendering made in GLSL.",
+            "preview": "sumoke_1.jpg",
             "images": [
-                "sumoke_1.png",
-                "sumoke_2.png",
-                "sumoke_3.png",
-                "sumoke_4.png",
-                "sumoke_5.png",
-                "sumoke_6.png",
-                "sumoke_7.png"
+                "sumoke_1.jpg",
+                "sumoke_2.jpg",
+                "sumoke_3.jpg",
+                "sumoke_4.jpg",
+                "sumoke_5.jpg",
+                "sumoke_6.jpg",
+                "sumoke_7.jpg"
             ],
             "videos":[
                 "//www.youtube.com/embed/tPCFTdZpS-0"
@@ -59,46 +67,52 @@
         },
         {
             "name": "citrus",
+            "href": "citrus",
             "date": "2013",
             "course": "TDDC88 Software Engineering",
-            "tools": "matlab",
+            "tools": "Javascript, Require.js",
             "partners": "Group of 30 persons",
-            "description": "Web-interface for set top boxes",
+            "description": "Course in software engineering, developed a prototype web user interface for set top boxes for Zenterio with 30 other students. I was assigned as developer.",
+            "preview": "c1.jpg",
             "images": [
-                "c1.png",
-                "c2.png",
-                "c3.png",
-                "c4.png",
-                "c5.png",
-                "c6.png",
-                "c7.png"
+                "c1.jpg",
+                "c2.jpg",
+                "c3.jpg",
+                "c4.jpg",
+                "c5.jpg",
+                "c6.jpg",
+                "c7.jpg"
             ],
             "videos":[
             ]
         },
         {
-            "name": "jrforums",
+            "name": "JR-forums",
+            "href": "jrforums",
             "date": "2010",
-            "course": "TNM025 Content-based Media Search",
-            "tools": "matlab",
+            "course": "TNMK30 Electronic Publishing",
+            "tools": "PHP, Javascript, SQL",
             "partners": "John Hollen",
-            "description": "First ever web-project a simple forum.",
+            "description": "My first experience with web development. A simple forum implemented with PHP, Javascript and MySQL.",
+            "preview": "jr1.jpg",
             "images": [
-                "jr1.png",
-                "jr2.png",
-                "jr3.png",
-                "jr4.png"
+                "jr1.jpg",
+                "jr2.jpg",
+                "jr3.jpg",
+                "jr4.jpg"
             ],
             "videos":[
             ]
         },
         {
             "name": "mosaic",
+            "href": "mosaic",
             "date": "2014",
             "course": "TNM025 Content-based Media Search",
             "tools": "matlab",
             "partners": "Oscar Ivarsson",
-            "description": "The project is created in Matlab with the use of various techniques for performing image retrieval in large databases.The result is used for creating mosaic images, i.e. images that are made of multiple sub-images that are working as an assemblage of small mosaic pieces.",
+            "description": "The focus of this project was to learn about different techniques used for image retrival in large image databases. This required images to be descibed by different features, also to meet the performance requirements the feature space had to reduced and the database query had to be implemented in an efficient manner. The result is used for creating mosaic images, i.e. images that are made of multiple sub-images that are working as an assemblage of small mosaic pieces.",
+            "preview": "tiger_51x51_unique.jpg",
             "images": [
                 "tiger_51x51_unique.jpg",
                 "frogs.jpg",
@@ -111,80 +125,138 @@
         },
         {
             "name": "donjoule",
+            "href": "donjoule",
             "date": "2014",
             "course": "TNM048 Information Visualisation",
-            "tools": "matlab",
+            "tools": "Javascript, Knockout.js",
             "partners": "Pär Eriksson",
-            "description": "Visualization over energy consumption in the world",
+            "description": "Course in information visualization with the main goal to learn how to visualize information taking the human perception into consideration. The secondary goal was to learn about different datamining techniques and how to find intresting data within large amount of data. This concluded in a website featuring visualization over the energy consumption in the world. It is also possible to filter the data into clusters with different clustering techniques.",
+            "preview": "dj1.jpg",
             "images": [
-                "dj1.png",
-                "dj2.png",
-                "dj3.png"
+                "dj1.jpg",
+                "dj2.jpg",
+                "dj3.jpg"
             ],
             "videos":[
             ]
         },
         {
-            "name": "moa",
+            "name": "modeling and animation",
+            "href": "moa",
             "date": "2014",
             "course": "TNM079 Modeling and Animation",
-            "tools": "matlab",
+            "tools": "C++",
             "partners": "Oscar Ivarsson",
             "description": "This course contained an extensive lab series related to different parts of modeling and animation. The labs were performed in C++ with an existing code structure. Lab 1: Mesh Data Structures, Lab 2: Mesh Decimation, Lab 3: Splines and Subdivision, Lab 4: Implicit Surfaces and Modeling, Lab 5: Level-Set Methods, Lab 6: Fluid Simulation",
+            "preview": "moa1.jpg",
             "images": [
-                "moa1.png",
-                "moa2.png",
-                "moa3.png",
-                "moa4.png",
-                "moa5.png",
-                "moa6.png",
-                "moa7.png",
-                "moa8.png",
-                "moa9.png",
-                "moa10.png",
-                "moa11.png",
-                "moa12.png",
-                "moa13.png",
-                "moa14.png",
-                "moa15.png"
+                "moa1.jpg",
+                "moa2.jpg",
+                "moa3.jpg",
+                "moa4.jpg",
+                "moa5.jpg",
+                "moa6.jpg",
+                "moa7.jpg",
+                "moa8.jpg",
+                "moa9.jpg",
+                "moa10.jpg",
+                "moa11.jpg",
+                "moa12.jpg",
+                "moa13.jpg",
+                "moa14.jpg",
+                "moa15.jpg"
             ],
             "videos":[
             ]
         },
         {
             "name": "volpix",
+            "href": "volpix",
             "date": "2014",
             "course": "TSBK03 Technology For Advanced Computer Games",
-            "tools": "matlab",
+            "tools": "C++, GLSL",
             "partners": "Oscar Ivarsson, Pär Eriksson, Jonas Görling",
-            "description": "This project is an implementation of a surface voxelization algorithm that runs in a single pass, completely on the GPU with the use of the hardware accelerated rasterization. Also a sparse voxel octree is implemented for the storage of the voxels at the CPU. The application is made for pure visualization of the voxels.",
+            "description": "This project is an implementation of a surface voxelization algorithm that runs in a single pass, completely on the GPU with the use of the hardware accelerated rasterization. Also a sparse voxel octree is implemented for the storage of the voxels at the CPU.",
+            "preview": "volpix_1.jpg",
             "images": [
-                "volpix_1.png",
-                "volpix_2.png",
-                "volpix_3.png",
-                "volpix_4.png",
-                "volpix_5.png"
+                "volpix_1.jpg",
+                "volpix_2.jpg",
+                "volpix_3.jpg",
+                "volpix_4.jpg",
+                "volpix_5.jpg"
             ],
             "videos":[
             ]
         },
         {
             "name": "Genetic tetris agent",
+            "href": "tetrisai",
             "date": "2013",
             "course": "TNM066 Computer Models of Cognitive Processes",
-            "tools": "matlab",
+            "tools": "Java",
             "partners": "Simon Bergström",
-            "description": "Tetris AI optimized with the help of genetic algorithms.",
+            "description": "A tetris ai that uses seven different values to determine the best position for the new blocks. These values is optimized with the help of a genetic algorithm.",
+            "preview": "AI_3.jpg",
             "images": [
-                "AI_1.png",
-                "AI_2.png",
-                "AI_4.png",
-                "AI_5.png",
-                "AI_6.png",
-                "AI_7.png"
+                "AI_1.jpg",
+                "AI_2.jpg",
+                "AI_4.jpg",
+                "AI_5.jpg",
+                "AI_6.jpg",
+                "AI_7.jpg"
             ],
             "videos":[
                 "//www.youtube.com/embed/_DeNV3DJctw"
+            ]
+        },
+        {
+            "name": "Monte Carlo ray tracer",
+            "href": "raytracer",
+            "date": "2014",
+            "course": "TNCG15 Advanced Global Illumination and Rendering",
+            "tools": "C++, OpenMP",
+            "partners": "None",
+            "description": "A Monte Carlo ray tracer implemented in C++, accelerated with OpenMP. Image one shows a rendering of a Cornell box (ish) scene, image two shows a comparison between using 10 and 1000 rays per pixel and image three shows the color bleeding between the diffuse walls.",
+            "preview": "scene.jpg",
+            "images": [
+                "scene.jpg",
+                "sppcomp.jpg",
+                "colorbleed.jpg"
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "name": "Cooma - Cooperative Maya",
+            "href": "cooma",
+            "date": "2014",
+            "course": "TNCG13 SFX Tricks of the trade",
+            "tools": "Python, Maya api, Node.js",
+            "partners": "Pär Eriksson, Oscar Ivarsson",
+            "description": "A python plugin for Autodesk Maya making it possible to work with the same scene at different working stations at the same time. Also includes a chat and a user sysyem.",
+            "preview": "tmp.jpg",
+            "images": [
+                "tmp.jpg"
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "name": "DQDR - QR decoder",
+            "href": "dqdr",
+            "date": "2014",
+            "course": "TNM034 Advanced Image Processing",
+            "tools": "MATLAB",
+            "partners": "Oscar Ivarsson",
+            "description": "A 2d barcode decoder. Manages noise, perspective transformation, uneven lightning and rotations. Implemented in matlab.",
+            "preview": "steps.jpg",
+            "images": [
+                "Husannons_full.jpg",
+                "qrcode.jpg",
+                "steps.jpg",
+                "flowchart.jpg"
+            ],
+            "videos":[
             ]
         }
     ]
