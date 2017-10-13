@@ -6,11 +6,11 @@
 		<script>
 		function cbF() {}
 			
-		function robin() {console.log('Björnen');}
+		function robin(msg) {console.log(msg);}
 		
 		var script = document.createElement("script");
 		script.src = "https://match.adsby.bidtheatre.com/usersync?jsonp_cb=cbF&jsonp_var=xid";
-		script.onerror = robin;
+		script.onerror = robin.bind(null,, 'hi');
 		document.getElementsByTagName("body")[0].appendChild(script);
 		
 		
