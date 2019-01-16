@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Robin & sons</title>
+		<title>Robin & sons 2</title>
 	</head>
 	<body>
 		<script type="text/javascript">
@@ -35,6 +35,57 @@
 			<!-- END OF REQUIRED FIELDS -->
 			<button type="submit">Send</button>
 		</form>
-		<script src="http://localhost:3060/public/eMNri3o+ntlfZlsG+PPUmw==/be.js"></script>
+		<script>
+			function _____insertAfter(e, t) {
+			    t.parentNode.insertBefore(e, t.nextSibling)
+			}
+
+			function onbEmSubmit(e) {
+				console.log(e)
+			    window.__validEmail ? e.target.disabled = !0 : e.preventDefault()
+			}
+			
+			window._bEmValid = function(e) {
+			    var t = !0;
+			    if (e.indexOf("@") === -1) return !1;
+			    var n = [].concat([{
+				    name: "hoj",
+				    topLevel: null
+				}, {
+				    name: "hej213",
+				    topLevel: "ho"
+				}, {
+				    name: "hej3243421",
+				    topLevel: "ho1"
+				}].map(function(e, t) {
+				    var n = "";
+				    return e.topLevel && (n = e.topLevel + "$"), e.name + "." + n
+				})),
+				r = e.split("@");
+			    if (r.length > 1 && r[1].indexOf(".") > -1) {
+				r = r[1];
+				for (var i = 0; i < n.length; i++) {
+				    var s = new RegExp(n[i]);
+				    if (s.test(r)) {
+					t = !1;
+					break
+				    }
+				}
+			    }
+			    return t
+			}, window.__validEmail = !1;
+			var errorMsg = document.createElement("div");
+			errorMsg.id = "email-error-message";
+			var emailInput = document.getElementById("up-email-input");
+			_____insertAfter(errorMsg, emailInput), emailInput.addEventListener("input", function(e) {
+			    if (this.value.indexOf("@") > -1) {
+				var t = this.value.toLowerCase().split("@")[1];
+				window.__validEmail = window._bEmValid(this.value.toLowerCase()), window.__validEmail ? (errorMsg.style.display = "none", emailInput.className = emailInput.className.replace("has-error", "")) : (emailInput.className = "has-error", errorMsg.style.display = "block", errorMsg.length ? errorMsg.innerHTML = "<span class='top-carot'></span><p class='error-body'>Please use your business email. The email domain " + t + " is not allowed</p><b id='up-email-warning' class='fa fa-exclamation' />" : (errorMsg.className = "error-message", errorMsg.innerHTML = "<span class='top-carot'></span><p class='error-body'>Please use your business email. The email domain " + t + " is not allowed</p><b id='up-email-warning' class='fa fa-exclamation' />"))
+			    }
+			});
+			var form = document.getElementById("up-form");
+			form.addEventListener("submit", onbEmSubmit)	
+		</script>
+		<!--script src="http://localhost:3060/public/eMNri3o+ntlfZlsG+PPUmw==/be.js"></script-->
 	</body>
 </html>
