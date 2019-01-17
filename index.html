@@ -36,7 +36,7 @@
 	<button type="submit">Send</button>
 </form>
 <script>
-	(function(){var form = document.getElementById("up-form");if(form) {form.addEventListener("submit", function() {var button = ev.target.querySelector("button[type=submit]");if(button) {button.disabled = true;}});}})();
+	(function(){var form = document.getElementById("up-form");if(form) {form.addEventListener("submit", function(ev) {var button = ev.target.querySelector("button[type=submit]");if(button) {button.disabled = true;}});}})();
 </script>
 	</body>
 </html>
