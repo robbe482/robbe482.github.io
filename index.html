@@ -5,17 +5,22 @@
 	<body>
 		<script type="text/javascript">
 			function openTerms(id) {
-			var terms = {"6":null,"7":null,"8":null};
+			var terms = {"1":null,"2":null,"3":null,"4":null};
 			var preview = window.open("", "", "height=700,width=800,scrollbars=yes,resizable=yes,toolbar=no,status=no,menu=no,titlebar=no,location=no,addressbar=no");
 			var html="<head><meta charset=\"UTF-8\"><style>body {margin: 0; padding: 20px;color: #333;font-family: Helvetica;font-size: 14px;}</style></head><body>" + terms[id] + "</body>";
 			preview.document.write(html);
 			}
 		</script>
-		<form id="up-form" name="form_7020u0baa3253e38843008c3f2e9c8402642b" action="http://localhost:3000/api/external/formSubmit" method="POST">
+		<form id="up-form" name="form_6990ube4fffdb5d58436f801ab427327c7b55" action="https://power.upsales.com/api/external/formSubmit" method="POST">
 			<div>
-				<label>Contact name *</label>
+				<label>Efternamn *</label>
 				<br>
-				<input maxlength="512" type="text" name="Contact.name" required="required">
+				<input maxlength="512" type="text" name="Contact.lastname" required="required">
+			</div>
+			<div>
+				<label>Förnamn *</label>
+				<br>
+				<input maxlength="512" type="text" name="Contact.firstname" required="required">
 			</div>
 			<div class="email">
 				<label>Email *</label>
@@ -23,18 +28,21 @@
 				<input maxlength="512" type="email" id="up-email-input" autocomplete="off" name="Contact.email" required="required">
 			</div>
 			<div>
-				<label>Company *</label>
+				<label>Företag *</label>
 				<br>
 				<input maxlength="512" type="text" id="up-client-name-input" name="Client.name" required="required">
 			</div>
 			<!-- REQUIRED FIELDS -->
-			<input type="hidden" name="formCid" value="7020">
-			<input type="hidden" name="formId" value="7020u0baa3253e38843008c3f2e9c8402642b">
+			<input type="hidden" name="formCid" value="6990">
+			<input type="hidden" name="formId" value="6990ube4fffdb5d58436f801ab427327c7b55">
 			<input type="hidden" name="isFrame" value="false">
 			<input type="text" value="" name="validation" style="display: none;">
 			<!-- END OF REQUIRED FIELDS -->
-			<button type="submit">Send</button>
+			<button type="submit">Skicka</button>
 		</form>
-		<script src="http://localhost:3060/public/eMNri3o+ntlfZlsG+PPUmw==/be.js"></script>
+		<script>
+			(function(){var form = document.getElementById("up-form");if(form) {form.addEventListener("submit", function(ev) {var button = ev.target.querySelector("button[type=submit]");if(button) {button.disabled = true;}});}})();
+		</script>
+		<script src="https://img.upsales.com/MklwK40UeZic8Rs+mm6cMw==/visit/v.js"></script>
 	</body>
 </html>
