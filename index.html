@@ -1,8 +1,43 @@
 <html>
 	<head>
-		<title>F</title>
+		<title>G</title>
 	</head>
 	<body>
+		<script type="text/javascript">
+			function openTerms(id) {
+			var terms = {};
+			var preview = window.open("", "", "height=700,width=800,scrollbars=yes,resizable=yes,toolbar=no,status=no,menu=no,titlebar=no,location=no,addressbar=no");
+			var html="<head><meta charset=\"UTF-8\"><style>body {margin: 0; padding: 20px;color: #333;font-family: Helvetica;font-size: 14px;}</style></head><body>" + terms[id] + "</body>";
+			preview.document.write(html);
+			}
+		</script>
+		<form id="up-form" name="form_7020u72783da122da44d899c2fc5e07a40b7e" action="http://localhost:3000/api/external/formSubmit" method="POST">
+			<div>
+				<label>Kontaktens namn *</label>
+				<br>
+				<input maxlength="512" type="text" name="Contact.name" required="required">
+			</div>
+			<div class="email">
+				<label>Email *</label>
+				<br>
+				<input maxlength="512" type="email" id="up-email-input" autocomplete="off" name="Contact.email" required="required">
+			</div>
+			<div>
+				<label>Företag *</label>
+				<br>
+				<input maxlength="512" type="text" id="up-client-name-input" name="Client.name" required="required">
+			</div>
+			<!-- REQUIRED FIELDS -->
+			<input type="hidden" name="formCid" value="7020">
+			<input type="hidden" name="formId" value="7020u72783da122da44d899c2fc5e07a40b7e">
+			<input type="hidden" name="isFrame" value="false">
+			<input type="text" value="" name="validation" style="display: none;">
+			<!-- END OF REQUIRED FIELDS -->
+			<button type="submit">Skicka</button>
+		</form>
+		<script>
+			(function(){var form = document.getElementById("up-form");if(form) {form.addEventListener("submit", function(ev) {var button = ev.target.querySelector("button[type=submit]");if(button) {button.disabled = true;}});}})();
+		</script>
 		<!--<script type="text/javascript">
 			function openTerms(id) {
 			var terms = {};
@@ -41,7 +76,7 @@
 		</script>-->
 		<!--<iframe src="http://localhost:3060/7020uac1a2aa29d984151845e415571c7cac7-frame" width="360" height="367" style="border:0"></iframe>-->
 		<!--<iframe src="https://pages.upsales.com/6990ube4fffdb5d58436f801ab427327c7b55-frame" width="360" height="441" style="border:0"></iframe>-->
-		<!--<script src="https://img.upsales.com/MklwK40UeZic8Rs+mm6cMw==/visit/v.js"></script>-->
+		<!--<script src="https://img.upsales.com/MklwK40UeZic8Rs+mm6cMw==/visit/v.js"></script>
 		
 		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
@@ -138,14 +173,14 @@
 			<div class="form-group" style="display: flex;"><input type="checkbox" value="on" name="singleOptIn.1527059873074" style="margin: auto 7px auto 0px;" required="required"><label>By ticking this box, you confirm that you consent to the terms and conditions <span class="text-danger">*</span></label>
 
 			</div>
-			<!-- REQUIRED FIELDS -->
+
 			<input type="hidden" name="formCid" value="325">
 			<input type="hidden" name="formId" value="325uca9c6e7c1afd43b1ad76adb1f786362f">
 			<input type="hidden" name="isFrame" value="false">
 			<input type="text" value="" name="validation" style="display: none;">
-			<!-- END OF REQUIRED FIELDS -->
+
 			<button type="submit">Get eBook</button>
 		</form>
-		<script src="https://img.upsales.com/AP+eXgIBZONggXRu9ngLiQ==/be.js"></script>
+		<script src="https://img.upsales.com/AP+eXgIBZONggXRu9ngLiQ==/be.js"></script>-->
 	</body>
 </html>
