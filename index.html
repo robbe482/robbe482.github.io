@@ -3,43 +3,9 @@
 		<title>G</title>
 	</head>
 	<body>
-		Välkommen till Robins alldeles egna super ai sida. Nya
+		Välkommen till Robins alldeles egna super ai sida. iframe
 		
-		<script type="text/javascript">
-			function openTerms(id) {
-			var terms = {};
-			var preview = window.open("", "", "height=700,width=800,scrollbars=yes,resizable=yes,toolbar=no,status=no,menu=no,titlebar=no,location=no,addressbar=no");
-			var html="<head><meta charset=\"UTF-8\"><style>body {margin: 0; padding: 20px;color: #333;font-family: Helvetica;font-size: 14px;}</style></head><body>" + terms[id] + "</body>";
-			preview.document.write(html);
-			}
-		</script>
-		<form id="up-form" name="form_7020u571902136880452485f86e36cea940c9" action="http://localhost:3000/api/external/formSubmit" method="POST">
-			<div>
-				<label>Kontaktens namn *</label>
-				<br>
-				<input maxlength="512" type="text" name="Contact.name" required="required">
-			</div>
-			<div class="email">
-				<label>Email *</label>
-				<br>
-				<input maxlength="512" type="email" pattern="^[a-zA-Z0-9.!#$%&amp;’*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+){1,}$" title="Please enter a valid email" id="up-email-input" autocomplete="off" name="Contact.email" required="required">
-			</div>
-			<div>
-				<label>Företag *</label>
-				<br>
-				<input maxlength="512" type="text" id="up-client-name-input" name="Client.name" required="required">
-			</div>
-			<!-- REQUIRED FIELDS -->
-			<input type="hidden" name="formCid" value="7020">
-			<input type="hidden" name="formId" value="7020u571902136880452485f86e36cea940c9">
-			<input type="hidden" name="isFrame" value="false">
-			<input type="text" value="" name="validation" style="display: none;">
-			<!-- END OF REQUIRED FIELDS -->
-			<div class="submit-button"><button type="submit">Skicka</button></div>
-		</form>
-		<script>
-			(function(){var form = document.getElementById("up-form");if(form) {var submitted = false;form.addEventListener("submit", function(ev) {var button = ev.target.querySelector("button[type=submit]");if(button) {button.disabled = true;}if (!submitted && window.hasPhoneFields) {var phoneFields = form.querySelectorAll('input[name*=phone], input[name*=Phone]');[].forEach.call(phoneFields, function(element) {if (element.iti) { element.value = element.iti.getNumber(); }});submitted = true;form.submit()}});}})();
-		</script>
+		<iframe src="http://localhost:3060/7020u571902136880452485f86e36cea940c9-frame" width="360" height="367" style="border:0"></iframe>
 		
 	</body>
 </html>
