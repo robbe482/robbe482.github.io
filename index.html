@@ -1,11 +1,26 @@
 <html>
 	<head>
 		<title>G</title>
+		<style>
+			.test {
+				display: none;
+			}
+		</style>
+		<script>
+			function onClick() {
+				document.querySelector('.test').style.display = 'block';
+			}
+		</script>
 	</head>
 	<body>
 		Välkommen till Robins alldeles egna super ai sida. iframe
 		
 		<iframe src="http://localhost:3060/7020u571902136880452485f86e36cea940c9-frame" width="360" height="367" style="border:0"></iframe>
-		<iframe src="http://localhost:3060/7020u571902136880452485f86e36cea940c9-frame" width="360" height="367" style="border:0"></iframe>
+		<button onclick="onClick">
+			Click me
+		</button>
+		<div class="test">
+			<iframe src="http://localhost:3060/7020u571902136880452485f86e36cea940c9-frame" width="360" height="367" style="border:0"></iframe>
+		</div>
 	</body>
 </html>
