@@ -16,53 +16,6 @@
 	<body>
 		Välkommen till Robins alldeles egna super ai sida. iframe
 		
-		<script type="text/javascript">
-	function openTerms(id) {
-	var terms = {"1":"asdasd","2":null,"3":null};
-	var preview = window.open("", "", "height=700,width=800,scrollbars=yes,resizable=yes,toolbar=no,status=no,menu=no,titlebar=no,location=no,addressbar=no");
-	var html="<head><meta charset=\"UTF-8\"><style>body {margin: 0; padding: 20px;color: #333;font-family: Helvetica;font-size: 14px;}</style></head><body>" + terms[id] + "</body>";
-	preview.document.write(html);
-	}
-</script>
-<form id="up-form" name="form_7020u215506d993ed4b6ea8aff1607007b443" action="http://localhost:3000/api/external/formSubmit" method="POST">
-	<h2>Kontakta oss</h2>
-	<p>Fyll i formuläret så kontaktar vi dig inom kort</p>
-	<div>
-		<label>Förnamn *</label>
-		<br>
-		<input maxlength="512" type="text" name="Contact.firstname" required="required">
-	</div>
-	<div>
-		<label>Efternamn *</label>
-		<br>
-		<input maxlength="512" type="text" name="Contact.lastname" required="required">
-	</div>
-	<div class="email">
-		<label>Email *</label>
-		<br>
-		<input maxlength="512" type="email" pattern="^[a-zA-Z0-9.!#$%&amp;’*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+){1,}$" title="Please enter a valid email" id="up-email-input" autocomplete="off" name="Contact.email" required="required">
-	</div>
-	<div>
-		<label>Företag *</label>
-		<br>
-		<input maxlength="512" type="text" id="up-client-name-input" name="Client.name" required="required">
-	</div>
-	<div class="form-group" style="display: flex;"><input type="checkbox" value="on" name="singleOptIn.41jbek0ufev" style="margin: auto 7px auto 0px;" required="required"><label class="opt-in-label"><a class="up-unstyled-element" href="javascript:openTerms(1);">Jag accepterar villkoren</a> <span class="text-danger">*</span></label>
-
-	</div>
-	<div class="form-group" style="display: flex;"><input type="checkbox" value="on" name="singleOptIn.60clj8cpcqn" style="margin: auto 7px auto 0px;" required="required"><label class="opt-in-label">Jag accepterar villkoren <span class="text-danger">*</span></label>
-
-	</div>
-	<!-- REQUIRED FIELDS -->
-	<input type="hidden" name="formCid" value="7020">
-	<input type="hidden" name="formId" value="7020u215506d993ed4b6ea8aff1607007b443">
-	<input type="hidden" name="isFrame" value="false">
-	<input type="text" value="" name="validation" style="display: none;">
-	<!-- END OF REQUIRED FIELDS -->
-	<div class="submit-button"><button type="submit">Skicka</button></div>
-</form>
-<script>
-	(function(){var form = document.getElementById("up-form");if(form) {var submitted = false;form.addEventListener("submit", function(ev) {var button = ev.target.querySelector("button[type=submit]");if(button) {button.disabled = true;}if (!submitted && window.hasPhoneFields) {var phoneFields = form.querySelectorAll('input[name*=phone], input[name*=Phone]');[].forEach.call(phoneFields, function(element) {if (element.iti) { element.value = element.iti.getNumber(); }});submitted = true;form.submit()}});}})();
-</script>
+		<script type="text/javascript">function openTerms(id) {var terms = {"1":"asdasd","2":null,"3":null};var preview = window.open("", "", "height=700,width=800,scrollbars=yes,resizable=yes,toolbar=no,status=no,menu=no,titlebar=no,location=no,addressbar=no");var html="<head><meta charset=\"UTF-8\"><style>body {margin: 0; padding: 20px;color: #333;font-family: Helvetica;font-size: 14px;}</style></head><body>" + terms[id] + "</body>";preview.document.write(html);}</script><form id="up-form" name="form_7020u215506d993ed4b6ea8aff1607007b443" action="http://localhost:3000/api/external/formSubmit" method="POST"><h2>Kontakta oss</h2><p>Fyll i formuläret så kontaktar vi dig inom kort</p><div><label>Förnamn *</label><br><input maxlength="512" type="text" name="Contact.firstname" required="required"></div><div><label>Efternamn *</label><br><input maxlength="512" type="text" name="Contact.lastname" required="required"></div><div class="email"><label>Email *</label><br><input maxlength="512" type="email" pattern="^[a-zA-Z0-9.!#$%&amp;’*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+){1,}$" title="Please enter a valid email" id="up-email-input" autocomplete="off" name="Contact.email" required="required"></div><div><label>Företag *</label><br><input maxlength="512" type="text" id="up-client-name-input" name="Client.name" required="required"></div><div class="form-group" style="display: flex;"><input type="checkbox" value="on" name="singleOptIn.41jbek0ufev" style="margin: auto 7px auto 0px;" required="required"><label class="opt-in-label"><a class="up-unstyled-element" href="javascript:openTerms(1);">Jag accepterar villkoren</a> <span class="text-danger">*</span></label> </div><div class="form-group" style="display: flex;"><input type="checkbox" value="on" name="singleOptIn.60clj8cpcqn" style="margin: auto 7px auto 0px;" required="required"><label class="opt-in-label">Jag accepterar villkoren <span class="text-danger">*</span></label> </div><!-- REQUIRED FIELDS --><input type="hidden" name="formCid" value="7020"><input type="hidden" name="formId" value="7020u215506d993ed4b6ea8aff1607007b443"><input type="hidden" name="isFrame" value="false"><input type="text" value="" name="validation" style="display: none;"><!-- END OF REQUIRED FIELDS --><div class="submit-button"><button type="submit">Skicka</button></div></form><script>(function(){var form = document.getElementById("up-form");if(form) {var submitted = false;form.addEventListener("submit", function(ev) {var button = ev.target.querySelector("button[type=submit]");if(button) {button.disabled = true;}if (!submitted && window.hasPhoneFields) {var phoneFields = form.querySelectorAll('input[name*=phone], input[name*=Phone]');[].forEach.call(phoneFields, function(element) {if (element.iti) { element.value = element.iti.getNumber(); }});submitted = true;form.submit()}});}})();</script><script>function onSubmit(e){var t=!0,n=!0;typeof window.__validEmail!="undefined"&&(n=window.__validEmail,t=!1);if(typeof n=="boolean"&&n&&!t)validateForm(e,"http://google.se");else{e.preventDefault();var r=!0,i=setInterval(function(){var n=window._bEmValid;if(typeof window.__validEmail!="undefined"||!n)r=window.__validEmail,t=!1;if(typeof r=="boolean"&&r||!t)clearInterval(i),validateForm(e,"http://google.se")},300)}}function validateForm(e,t){e.preventDefault();var n=document.getElementsByName("formId")[0].value,r=document.forms["form_"+n],i=r.querySelectorAll("input, textarea, select");for(var s=0;s<i.length;s++)i[s].type==="text"&&(i[s].value=i[s].value.trim());if(window.grecaptcha===undefined||window.grecaptcha.getResponse()!==""){var o=[];for(var s=0;s<i.length;s++)i[s].type==="checkbox"?o.push(i[s].name+"="+encodeURI(i[s].checked?i[s].value:"off")):o.push(i[s].name+"="+encodeURI(i[s].value));var u=o.join("&");u+="&isAjax=true";var a=window._paq||null,f=new XMLHttpRequest;f.open("POST",r.action),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(u),f.onload=function(){if(f.status===200)if(t)a&&a.push&&a.push(["trackLink","https://post.upsales.com/"+f.responseText,"link"]),typeof _uaq!="undefined"&&_uaq("form="+f.responseText),setTimeout(function(){window.top.location.href=t},333);else{var e=document.getElementById("up-form"),n=document.getElementById("up-form-thanks");e.style.display="none",n.style.display="block",a&&a.push&&a.push(["trackLink","https://post.upsales.com/"+f.responseText,"link"]),_uaq&&_uaq("form="+f.responseText)}else console.log("AJAX ERROR",f.status)}}else{var l=document.getElementById("recaptcha-error"),c=document.getElementsByClassName("g-recaptcha");l.style.display="none",c&&c.length&&console.log("handle this later")}}var form=document.getElementById("up-form");form.addEventListener("submit",onSubmit)</script>
 	</body>
 </html>
