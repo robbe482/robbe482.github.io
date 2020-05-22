@@ -3,16 +3,22 @@
 		"apps": [],
 		"details": [
 			{
+				"appIDs": [
+					"Y3PTL47CB7.com.upsales.UpsalesCRM"
+				],
+				"components": [
+					{
+						"/": "/*",
+						"comment": "Authenticate"
+					}
+				]
+			},
+			{
 				"appID": "Y3PTL47CB7.com.upsales.UpsalesCRM",
 				"paths": [
-					"*"
+					"/*"
 				]
 			}
-		]
-	},
-	"webcredentials": {
-		"apps": [
-			"Y3PTL47CB7.com.upsales.UpsalesCRM"
 		]
 	}
 }
