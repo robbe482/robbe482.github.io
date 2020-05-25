@@ -4,7 +4,7 @@
 		"details": [
 			{
 				"appIDs": [
-					"Y3PTL47CB7.com.upsales.UpsalesCRM"
+					"D2AGQ52959.Y3PTL47CB7.com.upsales.UpsalesCRM"
 				],
 				"components": [
 					{
@@ -14,7 +14,7 @@
 				]
 			},
 			{
-				"appID": "Y3PTL47CB7.com.upsales.UpsalesCRM",
+				"appID": "D2AGQ52959.Y3PTL47CB7.com.upsales.UpsalesCRM",
 				"paths": [
 					"/*"
 				]
