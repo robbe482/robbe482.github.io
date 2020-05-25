@@ -1,24 +1,24 @@
 {
-	"applinks": {
-		"apps": [],
-		"details": [
-			{
-				"appIDs": [
-					"D2AGQ52959.Y3PTL47CB7.com.upsales.UpsalesCRM"
-				],
-				"components": [
-					{
-						"/": "/#/open/",
-						"comment": "Authenticate"
-					}
-				]
-			},
-			{
-				"appID": "D2AGQ52959.Y3PTL47CB7.com.upsales.UpsalesCRM",
-				"paths": [
-					"/#/open/"
-				]
-			}
-		]
-	}
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "D2AGQ52959.Y3PTL47CB7.com.upsales.UpsalesCRM"
+                ],
+                "components": [
+                    {
+                        "/": "/*",
+                        "comment": "Authenticate"
+                    }
+                ]
+            },
+            {
+                "appID": "D2AGQ52959.Y3PTL47CB7.com.upsales.UpsalesCRM",
+                "paths": [
+                    "/*"
+                ]
+            }
+        ]
+    }
 }
